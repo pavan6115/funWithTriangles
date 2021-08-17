@@ -10,10 +10,10 @@
 <body>
     <section class="nav">
         <ul class="nav-links">
-           <li><a href="../index.html">isTriangle</a></li>
-           <li><a href="../triQuiz/triQuiz.html">Quiz</a></li>
-           <li><a href="./hypo.html">Hypotenuse</a></li>
-           <li><a href="../triArea/triArea.html">Area</a></li>
+           <li class="list-inline"><a href="../index.html">isTriangle</a></li>
+           <li class="list-inline"><a href="../triQuiz/triQuiz.html">Quiz</a></li>
+           <li class="list-inline"><a href="./hypo.html">Hypotenuse</a></li>
+           <li class="list-inline"><a href="../triArea/triArea.html">Area</a></li>
         </ul>
     </section>
 
@@ -22,18 +22,18 @@
     </section>
 
     <section class="formula">
-        <p>
+        <h4>
             Length of Hypotenuse = sqrt(a<sup>2</sup> + b<sup>2</sup>)
-        </p>
+        </h4>
     </section>
 
     <section class="container">
 
-        <label for="side-a">Enter value for side a :</label>
-        <input type="number" name="side-a" id="side-a" placeholder="Input Numerical Value">
+        <label for="side-a" class="side-label">Enter value for side a :</label>
+        <input type="number" name="side-a" id="side-a" class="inp-side"placeholder="Input Numerical Value">
 
-        <label for="side-b">Enter value for side b :</label>
-        <input type="number" name="side-b" id="side-b" placeholder="Input Numerical Value">
+        <label for="side-b" class="side-label">Enter value for side b :</label>
+        <input type="number" name="side-b" id="side-b" class="inp-side"placeholder="Input Numerical Value">
 
         <button class="hypoAns">Calculate Hypotenuse</button>
 
